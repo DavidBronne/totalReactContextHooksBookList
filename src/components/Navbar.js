@@ -7,10 +7,10 @@ const Navbar = () => {
     console.log('books :>> ', books);
 
     return (
-        <nav>
+        <div className='navbar'>
             <h1>Eliot's Library</h1>
             <p>You have {books.length} books ot read</p>
-        </nav>
+        </div>
     );
 }
  
